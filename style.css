@@ -74,19 +74,22 @@ main p {
 }
 
 .foot3 {
+  position: relative;
   flex-basis: 40%;
 }
 
 .foot4 {
+  position: relative;
   flex: 20%;
 }
 
 .p1 {
-  width: 30%;
+  width: 60%;
   position: absolute;
-  left: 40.4%;
+  left: 1%;
+  top: 2rem;
 }
 .p2 {
   position: absolute;
-  left: 80.1%;
+  left: 2%;
 }
