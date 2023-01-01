@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.baslık {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+}
+
+.baslık1 {
+  /* position: relative; */
+  color: wheat;
+}
+
+.sepet {
+  position: relative;
+}
+
+.product {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main {
+  text-indent: 1.5rem;
+  padding: 1rem;
+}
+
+main p {
+  margin-top: 5px;
+}
+
+.foot {
+  position: relative;
+  background-color: black;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-content: flex-start;
+  color: antiquewhite;
+  padding: 5px;
+}
+
+.foot a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  padding: 5px;
+}
+
+.foots {
+  color: rgb(206, 152, 81);
+}
+
+.foot1,
+.foot2 {
+  flex: 20%;
+}
+
+.foot3 {
+  flex-basis: 40%;
+}
+
+.foot4 {
+  flex: 20%;
+}
+
+.p1 {
+  width: 30%;
+  position: absolute;
+  left: 40.4%;
+}
+.p2 {
+  position: absolute;
+  left: 80.1%;
+}
